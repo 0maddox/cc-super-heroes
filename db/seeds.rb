@@ -16,7 +16,7 @@ end
 end
 
 5.times do
-    Hero.create(
+    Heroes.create(
        name: Faker::Superhero.name,
         super_name: Faker::Superhero.descriptor
     )
